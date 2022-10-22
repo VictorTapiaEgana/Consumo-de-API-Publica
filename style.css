@@ -139,15 +139,11 @@
 }
 .cerrarFlotante{
     
-
     position: relative;  
-    padding: 15px;  
+    padding: 15px 50px;  
     top:40%;
     left:50%;
-
     transform: translate(-50%);
-
-
 }
 .flotante>.acerade>p{
     margin:10px;
@@ -167,4 +163,9 @@
     font-weight: 800;
 }
 
+.github{
+    position: relative;
+    top:190px;
+    left: 110px;
+}
 
