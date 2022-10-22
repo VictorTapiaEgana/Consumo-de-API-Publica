@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <link rel="stylesheet" href="style.css">
+    <title>Prueba JSON</title>
+</head>
+<body>
+    <img id="info" src="/icon/info.png" alt="informacion">
+   <div class="cabezara"> 
+        <h1 id="titulo"></h1>   
+        <img id="logo" src="/icon/logo.png" alt="logo_rick_and_Morty">        
+    </div>
+    
+<div id="container1" class="">
+             
+    <div class="btn-group">
+        <button id="anterior" class="btn" style="width:33.3%"><b> < < Anterior </b></button>
+        <button disabled id="contador" style="width:33.3%">Contador</button>
+        <button id="siguiente" style="width:33.3%"><b>Siguiente > > </b></button>
+    </div>   
+   
+    <div id="contenido">
+        <!-- SE INSERTA EL TEMPLATE-->
+    </div>
+
+    <!-- TEMPLATE TARJETAS-->
+    <Template id="tarjeta">
+       
+        <div class="card-1">
+            <img class="img1" src="..." class="" alt="...">
+            <div class="card1-body">
+               <div class="detalles">
+                <div id="numero">
+                    <span></span>
+                </div>
+                    <h5 class="card1-title"></h5>                                                                                      
+                    <p id ="estado"></p>
+                    <p id="especie"></p>             
+                    <p id="Genero"></p>
+                    <p id ="ciudad"></p>
+                   
+                </div>      
+            </div>                                 
+          </div>
+    </Template>
+
+</div><!-- Fin Container-->
+
+<!-- VENTANA FLOTANTE-->
+<!--fuera del Container para lograr la opacidad-->
+<div id ="flotante1" class="flotante">  
+        <div class="acerade">
+            <h2>Acerca de.</h2>
+            <b><p>
+                Consumo de API publica de  <a href="https://rickandmortyapi.com/" target="_blank"> Rick And Morty</a>
+                Realizado con :
+                <hr>
+                     <img src="/icon/html-5.svg" alt="logo html">
+                     <img src="/icon/css3.svg" alt="logo css3">
+                     <img src="/icon/javascript.svg" alt="logo javascript">                  
+                
+            </p></b>
+            <button id="cerrar" class="cerrarFlotante"><b>Cerrar</b></button>
+        </div> 
+ 
+</div>
+
+<script src="java.js"></script>
+</body>
+</html>
