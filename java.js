@@ -19,17 +19,6 @@ let Anterior  = '';
 let Actual = 1;
 
 
-// console.log(BOTON_ANTERIOR);
-// console.log(BOTON_SIGUIENTE);
-// console.log(contador);
-
-
-
-
-
-
-
-
 
 BOTON_CERRAR.addEventListener ('click', e => {
    
@@ -68,16 +57,11 @@ BOTON_CERRAR.addEventListener ('click', e => {
     try {
         const res = await fetch(direccion);
         const datos = await res.json();
-        console.log('-- primera tanda');
-        console.log(datos);
-        console.log(datos.results);
-        console.log(datos.info);
-        console.log(datos.info.next);
-        console.log('-- FIN primera tanda')
+   
 
         Siguiente = datos.info.next;        
         Anterior = datos.info.prev;
-        //contador de paginas
+     
         contador.textContent = 'Paginas : ' + Actual + " de " + datos.info.pages;
 
         CONTENIDO.textContent='';
