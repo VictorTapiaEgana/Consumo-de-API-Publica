@@ -3,10 +3,11 @@
 
 
 
-  - Uso de API
-  - Reutilizacion de componentes 
-  - Uso de Fetch y promesas
-  - Renderizacion condicional
+  - Javascript   
+  - Uso de Fetch
+  - Manejo de Arreglos
+  - Templates
+  
 
 
 <h3 align="left">Languages and Tools:</h3>
